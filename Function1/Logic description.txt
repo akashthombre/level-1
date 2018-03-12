@@ -1,0 +1,39 @@
+1) Function 1 
+
+//Function to fetch the info of particular pokemon
+
+var pokemonInfo = function(name){       //function decleartion and passing name as parameter
+
+	for (x in pokemonList.pokemon){          //iterate through object and arrays
+
+		if(pokemonList.pokemon[x].name == name){  //condition
+
+			console.log(pokemonList.pokemon[x]);   // result display in console
+		}else
+    {
+      // do nothing
+    }
+	}
+}// end function
+
+var name = window.prompt('Enter the pokemon name');   //take user input
+
+pokemonInfo(name);  // function call
+
+
+Description:
+
+We have to fetch the information of particular pokemon, so i did the follwoing logic:
+
+1. declared the function with name as a parameter to pass and assigned it to a variable named as pokemonInfo.
+2.For iterate through object, i have used for in loop .
+3.then gave a condition as 
+
+if(pokemonList.pokemon[x].name == name){   //condition
+
+			console.log(pokemonList.pokemon[x]);   // result display in console
+		}
+
+it will display the whole infromation of that particular pokemon as we passed the name of pokemon.
+4.To take user input, we used window.prompt.
+5.finally we have to call that function .

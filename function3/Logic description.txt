@@ -1,0 +1,43 @@
+                Function 3
+
+//function decelration for taking input as weakness and prints the pokemon list who has that weakness
+
+var weaknessFunc = function(weakness){   // weakness as parameter to pass   
+
+	for (x in pokemonList.pokemon){   // iterate through whole object and arrays
+
+      for(y in pokemonList.pokemon[x].weaknesses){  // iterate through weaknesses
+
+        if(pokemonList.pokemon[x].weaknesses[y] == weakness){   // condition to match the weakness
+
+          console.log(pokemonList.pokemon[x].name);    // output in console, prints the name of pokemon
+
+        }else
+
+        {
+            // do nothing
+        }
+      }        
+	}// end for in loop
+
+} //end function
+
+var weakness = window.prompt('Enter the weakness');   // prompt for enter weakness input  
+
+weaknessFunc(weakness);  // call function
+ 
+_____________Description___________:
+
+function decelration for taking input as weakness and prints the pokemon list who has that weakness
+1.declared a function named as weaknessFunc with passing parameter as weakness and assigned it to a a variable.
+2.used for in loop , for iterate through whole object.
+3.give condition to match the weakness,
+
+if(pokemonList.pokemon[x].weaknesses[y] == weakness){   // condition to match the weakness
+
+          console.log(pokemonList.pokemon[x].name);    // output in console, prints the name of pokemon
+
+        }
+
+4.to take user input or argument ,used window.prompt.
+5.finally called the function.

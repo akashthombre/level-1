@@ -1,0 +1,45 @@
+           Function 2
+
+//function decelration for print which pokemon have that name in their next evolution field
+
+var nextEvolution = function(name){   // name as parameter to pass   
+
+	for (x in pokemonList.pokemon){   // iterate through whole object and arrays
+
+      for(y in pokemonList.pokemon[x].next_evolution){
+
+        if(pokemonList.pokemon[x].next_evolution[y].name == name){   //conditon
+
+          console.log(pokemonList.pokemon[x].name);
+
+        }else
+
+        {
+            // do nothing
+        }
+      }        
+	}// end for in loop
+
+} //end function
+
+var name = window.prompt('Enter the pokemon name');  
+
+nextEvolution(name);  // call function
+
+
+				_______description________:
+1.function decelration for print which pokemon have that name in their next evolution field.
+2.declared a function named as nextEvolution with name as a parameter.
+3.Iterate through object, used For in loop.
+4.After iteration, condition is given 
+
+if(pokemonList.pokemon[x].next_evolution[y].name == name){   //conditon
+
+          console.log(pokemonList.pokemon[x].name);  //prints name in console
+
+        }
+5.to take user input or argument for name ,used window.propmt.
+6.finally call the function.
+
+
+

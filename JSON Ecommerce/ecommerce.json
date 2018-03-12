@@ -1,0 +1,194 @@
+[{
+
+		"mobiles": [{
+				"company": "MI",
+				"Model": "Redmi 5A",
+				"Model No": "MCI3B",
+				"price": "12500 RS",
+				"Display": [{
+					"size": "5 inch",
+					"Resolution": "HD",
+					"Dsipaly type": "IPS",
+					"Touch Screen": "Yes",
+					"GPU": "Adreno 308"
+				}],
+				"sounds": [{
+					"speaker": "single",
+					"Microphones": "2 Noise Cancellation"
+				}],
+				"RAM": "3 GB",
+				"ROM": "32 GB",
+				"os": [{
+					"Operating System": "Android Nougat 7.1.2",
+					"Processor Type": "Qualcomm Snapdragon 425",
+					"Processor Core": "Quad Core"
+
+				}],
+				"Camera": [{
+					"Primary Camera Available": "Yes",
+					"Primary Camera": "13MP",
+					"Secondary Camera Available": "Yes",
+					"Secondary Camera": "5MP",
+					"Flash": "Rear Flash"
+				}]
+
+			},
+			{
+				"company": "Samsung",
+				"Model": "Galaxy Note 5s",
+				"price": "20500 RS",
+				"Display": [{
+					"size": "5.5 inch",
+					"Resolution": "HD",
+					"Dsipaly type": "IPS",
+					"Touch Screen": "Yes",
+					"GPU": "Adreno 310"
+				}],
+				"sounds": [{
+					"speaker": "single",
+					"Microphones": "2 Noise Cancellation"
+				}],
+				"RAM": "4 GB",
+				"ROM": "64 GB",
+				"os": [{
+					"Operating System": "Android Nougat 7.1.2",
+					"Processor Type": "Qualcomm Snapdragon 425",
+					"Processor Core": "Hexa Core"
+
+				}],
+				"Camera": [{
+					"Primary Camera Available": "Yes",
+					"Primary Camera": "16MP",
+					"Secondary Camera Available": "Yes",
+					"Secondary Camera": "5MP",
+					"Flash": "Rear Flash"
+				}]
+
+			}
+		]
+	},
+	{
+		"company": "oppo f3",
+		"Model": "CPH1609",
+		"price": "12500 RS",
+		"Display": [{
+			"size": "5.5 inch",
+			"Resolution": " Full HD",
+			"Dsipaly type": "IPS",
+			"Touch Screen": "Yes",
+			"GPU": " Mali T86 MP2"
+		}],
+		"sounds": [{
+			"speaker": "single",
+			"Microphones": "2 Noise Cancellation"
+		}],
+		"RAM": "4 GB",
+		"ROM": "64 GB",
+		"os": [{
+			"Operating System": " Android Marshmallow 6",
+			"Processor Type": "Mediatek MT6750T Octa Core 1.5GHz",
+			"Processor Core": "octa Core"
+
+		}],
+		"Camera": [{
+			"Primary Camera Available": "Yes",
+			"Primary Camera": "16MP",
+			"Secondary Camera Available": "Yes",
+			"Secondary Camera": "8MP",
+			"Flash": "Rear Flash"
+		}]
+
+
+
+	},
+	{
+		"Pendrives": [{
+				"Company": "Sony",
+				"General": [{
+					"Sales Package": "Pendrive",
+					"Model Name": "USM32GR/B2//USM32GR/BZ//USM32GR/B",
+					"Opening Mechanism": "Retractable",
+					"Part Number": "USM32GR/B2",
+					"Weight": "4 G"
+				}],
+				"Price": "800RS",
+				"Storage": "32GB"
+
+			},
+			{
+				"Company": "HP",
+				"General": [{
+					"Sales Package": "Pendrive",
+					"Model Name": "USM32GR/B2//USM32GR/BZ//USM32GR/B",
+					"Opening Mechanism": "Retractable",
+					"Part Number": "USM32GR/B2",
+					"Weight": "8 G"
+				}],
+				"Price": "1200RS",
+				"Storage": "64GB"
+
+			},
+			{
+				"Company": "Sandisk",
+				"General": [{
+					"Sales Package": "Pendrive",
+					"Model Name": "USM32GR/B2//USM32GR/BZ//USM32GR/B",
+					"Opening Mechanism": "Retractable",
+					"Part Number": "USM32GR/B2",
+					"Weight": "9 G"
+				}],
+				"Price": "500RS",
+				"Storage": "16GB"
+
+			}
+		]
+	},
+
+	{
+		"shooes": [{
+				"Brand": "Rebook",
+				"Model": "Acciomax Lp",
+				"IdealFor": "Men",
+				"Product Details": [{
+					"Upper Pattern": "solid",
+					"Pack of": 1,
+					"Sole Material": "Rubber",
+					"Tip Shape": "Round",
+					"Closure": "Lace up"
+				}],
+				"price": "2300 Rs",
+				"Outer Material": "Canvas"
+			},
+			{
+				"Brand": "Puma",
+				"Model": "Elara Slip On IDP ",
+				"IdealFor": "Feamle",
+				"Product Details": [{
+					"Upper Pattern": "solid",
+					"Pack of": 2,
+					"Sole Material": "Rubber",
+					"Tip Shape": "Circle",
+					"Closure": "Lace up",
+					"Season": "AW 16"
+				}],
+				"price": "2300 Rs",
+				"Outer Material": "Canvas"
+			},
+			{
+				"Brand": "Adidas",
+				"Model": "pixelo",
+				"IdealFor": "Female",
+				"Product Details": [{
+					"Upper Pattern": "solid",
+					"Pack of": 1,
+					"Sole Material": "Rubber",
+					"Tip Shape": "Round",
+					"Closure": "Lace up"
+				}],
+				"price": "2300 Rs",
+				"Outer Material": "Canvas"
+			}
+		]
+
+	}
+]
